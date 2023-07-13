@@ -274,7 +274,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        '"Josefin Sans"'
+        '"Open Sans"'
       ],
       serif: [
         "ui-serif",

@@ -8,6 +8,13 @@ import AsideMenu from './components/AsideMenu';
 import Footer from './components/Footer';
 
 function App() {
+
+  React.useEffect(function(){
+    const script = document.createElement("script");
+    script.src = "/js/carousel.js";
+    script.async = false;
+    document.body.appendChild(script);
+  })
   return (
     <>
       <Header/>
